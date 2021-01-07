@@ -12,10 +12,10 @@ class ComicController extends Controller
         $comics = config('comics');
 
         // GET SPECIFIC COMIC BY ID FOR THE UNIC DETAIL PAGE FOR EACH COMIC
-        $comic = [];
-        foreach ($comics as $item) {
-            if ( $id === $item['id'] ) {
-                $comic = $item;
+        $comicDetail = [];
+        foreach ($comics as $comic) {
+            if ( $id === $comic['id'] ) {
+                $comicDetail = $comic;
             }
         }
         // ALTERNATIVE SINTAX W/COLLECT METHOD

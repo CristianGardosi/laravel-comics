@@ -174,7 +174,7 @@ body {
   border-bottom: 10px solid #0282f9;
   background-image: url("../img/bg-hero-home.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 .hero .container img {
   position: absolute;
