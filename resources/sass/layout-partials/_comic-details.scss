@@ -1,0 +1,20 @@
+.container h1{
+    font-size: 70px;
+}
+
+.price {
+    @include flexRow('space-between');
+    width: 60%;
+    padding: 1rem;
+    background-color: $dcBlue;
+    color: $white;
+
+    & a {
+        text-decoration: none;
+        color: $white;
+
+        & i {
+            padding-left: 1rem;
+        }
+    }
+}

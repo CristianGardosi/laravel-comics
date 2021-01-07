@@ -215,3 +215,44 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+.blue-adds {
+  background-color: #0282f9;
+}
+.blue-adds .adds-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-adds .adds-list .adds-item {
+  list-style: none;
+}
+.blue-adds .adds-list .adds-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.blue-adds .adds-list .adds-item a img {
+  margin-right: 1rem;
+  width: 20%;
+}
+
+.container h1 {
+  font-size: 70px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 1rem;
+  background-color: #0282f9;
+  color: #fff;
+}
+.price a {
+  text-decoration: none;
+  color: #fff;
+}
+.price a i {
+  padding-left: 1rem;
+}

@@ -1,0 +1,23 @@
+.blue-adds {
+
+    background-color: $dcBlue;
+
+    .adds-list {
+        @include flexRow('all-centered');
+
+        .adds-item {
+            list-style: none;
+
+            & a {
+                
+                text-decoration: none;
+                color: $white;
+
+                & img {
+                    margin-right: 1rem;
+                    width: 20%;
+                }
+            }
+        }
+    }
+}

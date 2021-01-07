@@ -35,6 +35,44 @@
                 </a>
             </div>
         </section>
+        <section class="blue-adds pt-2 pb-2">
+            <div class="container">
+                <ul class="adds-list">
+                    <li class="adds-item">
+                        <a href="#">
+                            <img src="../img/digital-comics.png" alt="">
+                            <span class="upper">
+                                Digital Comics
+                            </span>
+                        </a>
+                    </li>
+                    <li class="adds-item">
+                        <a href="#">
+                            <img src="../img/merchandise.png" alt="">
+                            <span class="upper">
+                                Merchandise
+                            </span>
+                        </a>
+                    </li>
+                    <li class="adds-item">
+                        <a href="#">
+                            <img src="../img/subscriptions.png" alt="">
+                            <span class="upper">
+                                Subscription
+                            </span>
+                        </a>
+                    </li>
+                    <li class="adds-item">
+                        <a href="#">
+                            <img src="../img/subscriptions.png" alt="">
+                            <span class="upper">
+                                Shop Locator
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
 @endsection 
