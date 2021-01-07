@@ -6,6 +6,11 @@
         <section class="hero">
             <div class="container">
                 <img src="{{ asset('img/cover-home.jpg') }}" alt="Teen Go comic">
+                <div class="current">
+                    <h3 class="upper">
+                        Current series
+                    </h3>
+                </div>
             </div>
         </section>
         <section class="comics mt-4 mb-4">
