@@ -171,7 +171,7 @@ body {
 .hero {
   position: relative;
   height: 400px;
-  border: 1px solid #000;
+  border-bottom: 10px solid #0282f9;
   background-image: url("../img/bg-hero-home.jpg");
   background-size: cover;
   background-position: center;
@@ -190,12 +190,28 @@ body {
   color: #fff;
 }
 
-.comics-list {
+.comics {
+  background: #303030;
+}
+.comics .comics-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+  gap: 3rem;
   list-style: none;
 }
-.comics-list img {
+.comics .comics-list .comics-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.comics .comics-list img {
   width: 100%;
+}
+.comics .load-more {
+  text-align: center;
+}
+.comics .load-more .blue-btn {
+  padding: 1rem 3rem;
+  background: #0282f9;
+  color: #fff;
+  text-decoration: none;
 }

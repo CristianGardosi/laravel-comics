@@ -13,18 +13,26 @@
                 </div>
             </div>
         </section>
-        <section class="comics mt-4 mb-4">
+        <section class="comics pt-4 pb-4">
             <div class="container">
                 <ul class="comics-list">
                     @foreach ($comics as $comic)
-                        <li>
+                        <li class="comics-item">
                             <a href=" {{ route('comic-details', $comic['id']) }} ">
-                                <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
+                                <img 
+                                class="pb-1"
+                                src="{{ $comic['image'] }}" 
+                                alt="{{ $comic['title'] }}">
                                 <h3>{{ $comic['title'] }}</h3>
                             </a>
                         </li>
                     @endforeach
                 </ul>
+            </div>
+            <div class="load-more mt-4">
+                <a href="#" class="blue-btn upper">
+                    Load more
+                </a>
             </div>
         </section>
     </main>

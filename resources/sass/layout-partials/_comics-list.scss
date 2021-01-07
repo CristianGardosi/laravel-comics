@@ -1,12 +1,32 @@
-// GRID SYSTEM QUICK LOOK
-.comics-list {
-    display: grid;
-    // This is the shortcut to say autofill all the space on the screen and never go under 200px img (it wraps when it happens)
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    list-style: none;
+.comics {
+    background: $dcGrey;
+    
+    // GRID SYSTEM QUICK LOOK
+    .comics-list {
+        display: grid;
+        // This is the shortcut to say autofill all the space on the screen and never go under 200px img (it wraps when it happens)
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 3rem;
+        list-style: none;
 
-    img {
-        width: 100%;
+        .comics-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+        }
     }
+
+    .load-more {
+        text-align: center;
+    
+       .blue-btn {
+            padding: 1rem 3rem;
+            background: $dcBlue;
+            color: $white;
+            text-decoration: none;
+        }
+    }   
 }
