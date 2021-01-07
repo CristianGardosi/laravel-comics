@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sansita", sans-serif;
+  font-size: 18px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.tac {
+  text-align: center;
+}
+
+.mt-0 {
+  margin-top: 0rem;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
+}
+
+.pt-0 {
+  padding-top: 0rem;
+}
+
+.pb-0 {
+  padding-bottom: 0rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.pt-4 {
+  padding-top: 4rem;
+}
+
+.pb-4 {
+  padding-bottom: 4rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.pb-6 {
+  padding-bottom: 6rem;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mb-8 {
+  margin-bottom: 8rem;
+}
+
+.pt-8 {
+  padding-top: 8rem;
+}
+
+.pb-8 {
+  padding-bottom: 8rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.small-blue {
+  background: #0282f9;
+}
+.small-blue .container .blue-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.small-blue .container .blue-list .blue-item {
+  list-style: none;
+  padding-left: 2rem;
+}
+.small-blue .container .blue-list .blue-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav .brand img {
+  max-width: 100px;
+}
+.header-nav .navbar-list {
+  display: flex;
+}
+.header-nav .navbar-list .navbar-item {
+  list-style: none;
+  padding: 1rem;
+}
+.header-nav .navbar-list .navbar-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-bar {
+  height: 2rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #0282f9;
+}
+.search-bar .search-icon {
+  position: absolute;
+  left: 0;
+}
+
+.hero {
+  height: 400px;
+  border: 1px solid #000;
+  background-image: url("../../../public/img/cover-home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.comics-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+}
+.comics-list img {
+  width: 100%;
+}

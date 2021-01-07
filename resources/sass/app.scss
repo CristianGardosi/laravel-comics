@@ -1,0 +1,15 @@
+// *COMMON & UTILITIES* \\
+// GLOBALS 
+@import 'partials/globals';
+// UTILITY CLASSES
+@import 'partials/utilities';
+// VARIABLES
+@import 'partials/variables';
+
+// *LAYOUT* \\
+// HEADER SECTION STYLING
+@import 'layout-partials/header';
+// HERO SECTION STYLING
+@import 'layout-partials/hero';
+// COMICS LIST STYLING USING GRID
+@import 'layout-partials/comics-list';

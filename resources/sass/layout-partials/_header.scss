@@ -1,0 +1,52 @@
+.small-blue {
+    background: $dcBlue;
+
+    .container .blue-list {
+        @include flexRow('end');
+
+        .blue-item {
+            list-style: none;
+            padding-left: 2rem;
+
+            & a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.header-nav {
+    @include flexRow('space-between');
+
+    .brand img {
+        max-width: 100px;
+    }
+
+    .navbar-list {
+        display: flex;
+
+        .navbar-item {
+            list-style: none;
+            padding: 1rem;
+
+            & a {
+                color: $black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.search-bar {
+    height: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid $dcBlue;
+
+    .search-icon {
+        position: absolute;
+        left: 0;
+    }
+}
