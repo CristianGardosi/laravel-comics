@@ -172,6 +172,80 @@ h1 {
   left: 0;
 }
 
+.main-footer {
+  position: relative;
+  height: 600px;
+  background-image: url("../img/footer-bg.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.main-footer .container {
+  position: relative;
+}
+.main-footer .container .footer-logo {
+  position: absolute;
+  right: 0;
+}
+.main-footer .container .links-lists {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-footer .container .links-lists .footer-list {
+  padding-right: 4rem;
+}
+.main-footer .container .links-lists .footer-list h2 {
+  color: #fff;
+}
+.main-footer .container .links-lists .footer-list .footer-item {
+  padding: 0.5rem 0;
+  list-style: none;
+}
+.main-footer .container .links-lists .footer-list .footer-item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-footer .all-rights-reserved {
+  width: 50%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-footer .all-rights-reserved a {
+  text-decoration: none;
+  color: #0282f9;
+}
+.main-footer .grey-social-area {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #303030;
+}
+.main-footer .grey-social-area .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-footer .grey-social-area .container .signup-button a {
+  padding: 1rem 3rem;
+  border: 2px solid #0282f9;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+.main-footer .grey-social-area .container .social-links {
+  display: flex;
+  align-items: center;
+}
+.main-footer .grey-social-area .container .social-links h2 {
+  padding-right: 2rem;
+  color: #fff;
+}
+.main-footer .grey-social-area .container .social-links a {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .hero {
   position: relative;
   height: 400px;
