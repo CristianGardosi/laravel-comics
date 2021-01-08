@@ -1,8 +1,6 @@
-.container h1{
-    font-size: 70px;
-}
 
-.price {
+
+.price-and-description {
     @include flexRow('space-between');
     width: 60%;
     padding: 1rem;
@@ -18,3 +16,9 @@
         }
     }
 }
+
+.text {
+    line-height: 2rem;
+}
+
+

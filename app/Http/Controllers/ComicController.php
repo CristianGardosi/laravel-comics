@@ -4,24 +4,33 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Str;
+
 class ComicController extends Controller
 {
-    public function show($id) {
+    public function show($slug) {
         
 
         $comics = config('comics');
 
 
-        // GET SPECIFIC COMIC BY ID FOR THE UNIC DETAIL PAGE FOR EACH COMIC
+        // GET SPECIFIC COMIC BY USER FRIENDLY SLUG FOR THE UNIC DETAIL PAGE FOR EACH COMIC
         $comic= [];
+
         foreach ($comics as $item) {
-            if ( $id == $item['id'] ) {
+
+            $titleConverted = Str::slug($item['title'], '-');
+
+            if ($slug == $titleConverted) {
                 $comic = $item;
+                break;
             }
         }
-        // ALTERNATIVE SINTAX W/COLLECT METHOD
-        // $comic = collect($comics)->firstWhere('id', $id);
-        
+        // If the user search for an uncorrect URL we have to show the 404 page
+        if ( empty($comic) ) {
+            abort(404);
+        }
+
         // View association
         return view('comic.show', ['comic' => $comic]);
     }

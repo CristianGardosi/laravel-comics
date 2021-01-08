@@ -73,6 +73,7 @@
                 <li class="navbar-item">
                     <a href="#" class="upper">
                         Shop
+                        <i class="fas fa-chevron-down"></i>
                     </a>
                 </li>
             </ul>

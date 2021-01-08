@@ -14,8 +14,8 @@
                 <h1 class="upper">
                     {{ $comic['title'] }}
                 </h1>
-                <div class="price mt-2 mb-2">
-                    {{'U.S. Price ' . $comic['price'] }}
+                <div class="price-and-description mt-2 mb-2">
+                    {{'U.S. Price: $' . $comic['price'] }}
                     <span class="upper">
                         avaiable on 11/10
                     </span>
