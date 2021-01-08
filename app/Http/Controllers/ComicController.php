@@ -7,15 +7,14 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
 class ComicController extends Controller
+
 {
     public function show($slug) {
         
-
         $comics = config('comics');
 
-
         // GET SPECIFIC COMIC BY USER FRIENDLY SLUG FOR THE UNIC DETAIL PAGE FOR EACH COMIC
-        $comic= [];
+        $comic = [];
 
         foreach ($comics as $item) {
 
